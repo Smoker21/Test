@@ -12,6 +12,6 @@ class ScalaServlet extends HttpServlet {
   }
 
   override def doPost(request: HttpServletRequest, response: HttpServletResponse) {
-
+	  this.doGet(request,response);
   }
 }
